@@ -59,22 +59,3 @@ function raizc() {
          op="no"; //quitar operaciones pendientes.
          xi=1; //se puede reiniciar la pantalla 
          }
-function porcent() { 
-         x=x/100 //dividir por 100 el número
-         pantalla.innerHTML=x; //mostrar en pantalla
-         igualar() //resolver y mostrar operaciones pendientes
-         xi=1 //reiniciar la pantalla
-         }
-function opuest() { 
-         nx=Number(x); //convertir en número
-         nx=-nx; //cambiar de signo
-         x=String(nx); //volver a convertir a cadena
-         pantalla.innerHTML=x;//mostrar en pantalla.
-         }
-function inve() {
-         nx=Number(x);
-         nx=(1/nx);
-         x=String(nx);       
-         pantalla.innerHTML=x;
-         xi=1; //reiniciar pantalla al pulsar otro número.
-         }
